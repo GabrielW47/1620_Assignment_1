@@ -78,9 +78,9 @@ footer{
 .Note2{
     display: flex;
     flex-direction: column;
-    width: 10%;
+    width: 10vh;
     justify-content: center;
-    padding: 30%;
+    padding: 50vh;
 }
 .Main_button{
     width: 100%;
