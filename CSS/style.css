@@ -47,11 +47,10 @@ ul{
 .side_bar{
     display: flex;
     flex-direction: column;
-    justify-content: left;
     width: 20%;
     height: 100vh;
     background-color: #31748f
-    
+
 }
 .side{
     display: flex;
@@ -71,15 +70,17 @@ footer{
 .Note{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70vw;
     justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
 }
 .Note2{
     display: flex;
     flex-direction: column;
     width: 10%;
     justify-content: center;
-    padding: 50%;
+    padding: 30%;
 }
 .Main_button{
     width: 100%;
