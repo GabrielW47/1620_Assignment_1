@@ -2,8 +2,7 @@
     margin: 30;
     padding: 20;
     font-family: 'Merriweather', serif; 
-    color: #e0def4;
-    flex-wrap: nowrap;      
+    color: #e0def4;      
 }
 body {
     background-color: #26233a
@@ -11,6 +10,7 @@ body {
 h1, h2, p {
     text-align: center;
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    flex-wrap: nowrap;
 }
 button{
     color: #31748f
@@ -24,6 +24,15 @@ textarea {
     box-shadow: 1px 1px 1px #e0def4;
     color: #26233a
 }
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    align-content: left;
+    align-items: center;
+}
 .nav_contan{
     display: flex;
     justify-content: right;
@@ -33,10 +42,10 @@ ul{
     gap: 15px;
 }
 .side_bar{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
-    justify-content: right;
-    align-items: flex-end;
+    justify-content: left;
+
     width: 20%;
     height: 100vh;
     background-color: #31748f
@@ -48,4 +57,9 @@ footer{
     left: 0;
     bottom: 0;
     text-align: center;
+}
+.Note{
+    display: flex;
+    justify-content: center;
+    width: 100vh;
 }
