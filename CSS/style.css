@@ -2,7 +2,8 @@
     margin: 30;
     padding: 20;
     font-family: 'Merriweather', serif; 
-    color: #e0def4;      
+    color: #e0def4;
+    flex-wrap: nowrap;      
 }
 body {
     background-color: #26233a
@@ -22,4 +23,29 @@ textarea {
     border: 1px solid #e0def4;
     box-shadow: 1px 1px 1px #e0def4;
     color: #26233a
+}
+.nav_contan{
+    display: flex;
+    justify-content: right;
+}
+ul{  
+    flex-direction: row;
+    gap: 15px;
+}
+.side_bar{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    width: 20%;
+    height: 100vh;
+    background-color: #31748f
+    
+}
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
 }
